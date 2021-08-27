@@ -128,12 +128,14 @@ img {
 
 /* Іконки в "Нащі переваги" */
 .icon-worklist {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
   background: #f5f4fa;
   border-radius: 4px;
-  width: 270;
-  height: 120;
-  padding: 25px 100px;
 }
 
 /* Секція герой */
